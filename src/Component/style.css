@@ -8,7 +8,7 @@
   border: 1px solid #002244;
   font-size: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  color: #002244; /* Darker blue text */
+  color: #002244;
   background: linear-gradient(135deg, #fff8dc, #ffda89);
   background-size: 200% 200%;
   animation: gradientMove 10s ease infinite;
@@ -78,19 +78,29 @@
   margin-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   backdrop-filter: blur(10px);
   color: #002244;
+  cursor: pointer;
 }
 
 .component:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+  background-color: rgba(220, 220, 220, 0.9);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.component:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .icon {
   font-size: 30px;
   color: #002244;
   margin-right: 15px;
+  width: 40px;
+  text-align: center;
 }
 
 .info {
