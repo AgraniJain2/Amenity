@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# VIT Amenities - Software System Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Agrani Jain 23BBS0128
+### Kavyan Jain 23BBS0150
+Project Discription: This project guides you over the location of nearest AMENITIES around you helping you locating basic amenities as soon as possible. 
 
 ## Available Scripts
 
