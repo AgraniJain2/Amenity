@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import ComponentList from "./Component/list";
 import "./App.css";
+import Login from "./Component/Login"
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -47,8 +49,14 @@ function App() {
         </div>
       ) : (
         <div>
-          <header className="header" onClick={reloadPage}>
-            <h1>VIT Amenities</h1>
+          <header className="header" >
+            <h1 onClick={reloadPage}>VIT Amenities</h1>
+            <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
           </header>
           <div className="content">
             <ComponentList />
