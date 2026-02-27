@@ -1,19 +1,45 @@
-# VIT Amenities - Software System Project
+# VIT Amenities 🗺️
 
-### Agrani Jain 23BBS0128
-### Kavyan Jain 23BBS0150
-Project Discription: This project guides you over the location of nearest AMENITIES around you helping you locating basic amenities as soon as possible. 
+A software system project designed to help you quickly locate the nearest basic amenities around the Vellore Institute of Technology (VIT) campus. 
 
-## Available Scripts
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Live Demo
+**[Experience the application live on Netlify](https://amenityservice.netlify.app)**
 
-In the project directory, you can run:
+## 📖 About the Project
+Finding essential services and facilities shouldn't be a hassle. **VIT Amenities** is a web application built to guide users to the closest available amenities instantly. Whether you are navigating the campus or looking for nearby essentials, this tool streamlines the process of locating basic facilities as quickly as possible.
 
-### npm i
+## 💻 Tech Stack
+* **Frontend Framework:** React.js
+* **Languages:** JavaScript, HTML5, CSS3
+* **Hosting/Deployment:** Netlify
 
-Initalize the project for the first time and install the required dependencies.
+## 🛠️ Getting Started
 
-### npm start dev
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To get a local copy up and running, follow these simple steps:
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/AgraniJain2/Amenity.git](https://github.com/AgraniJain2/Amenity.git)
+   cd Amenity
+Install dependencies:
+Initialize the project for the first time and install the required packages.
+
+Bash
+npm i
+Run the development server:
+Start the application in development mode.
+
+Bash
+npm start dev
+Open http://localhost:3000
+ to view it in your browser. The page will reload when you make changes.
+
+👥 Authors
+Agrani Jain (23BBS0128)
+
+Kavyan Jain (23BBS0150)
