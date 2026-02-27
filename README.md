@@ -26,19 +26,16 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
    ```bash
    git clone [https://github.com/AgraniJain2/Amenity.git](https://github.com/AgraniJain2/Amenity.git)
    cd Amenity
-Install dependencies:
+2. Install dependencies:
 Initialize the project for the first time and install the required packages.
-
 Bash
 npm i
-Run the development server:
-Start the application in development mode.
+
+3. Run the development server:
+   Start the application in development mode.
 
 Bash
 npm start dev
-Open http://localhost:3000
- to view it in your browser. The page will reload when you make changes.
-
 👥 Authors
 Agrani Jain (23BBS0128)
 
